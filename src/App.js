@@ -24,10 +24,12 @@ useEffect(()=>{
 }, []);
 
   return (
+    <div className='contain'>
     <div className="App">
-     <Form movieSearch={getMovie}/>
+    <Form movieSearch={getMovie}/>
 
      <MovieDisplay movie={movie}/>
+    </div>
     </div>
   );
 }

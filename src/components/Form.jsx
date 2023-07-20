@@ -19,10 +19,9 @@ function Form(props) {
    };
 //when submit button is pressed, store value in input
 
-
-
      return (
    <div>
+    
         <form onSubmit={handleSubmit}>
          <input 
          type="text"
