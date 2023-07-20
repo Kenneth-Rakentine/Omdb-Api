@@ -4,13 +4,13 @@ import MovieDisplay from './components/MovieDisplay';
 import { useState, useEffect } from 'react';
 
 function App() {
-const apiKey="5f50b9f5"
+const apiKey="98e3fb1f"
 
 const [movie, setMovie] = useState("")
 
 
 const getMovie = async(searchTerm)=>{
-  const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}=${searchTerm}`)
+  const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`)
 
 //--->Go to the site and search for Title
 const data = await response.json()

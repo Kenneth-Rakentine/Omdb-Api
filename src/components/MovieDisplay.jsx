@@ -1,5 +1,6 @@
-import React from 'react'
 
+import React from 'react'
+import Form from './Form'
 function MovieDisplay(props) {
 
     const loaded = ()=>{
