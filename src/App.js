@@ -20,7 +20,7 @@ setMovie(data)
 }
 
 useEffect(()=>{
-  getMovie("Clueless");
+  getMovie("Gummo");
 }, []);
 
   return (
